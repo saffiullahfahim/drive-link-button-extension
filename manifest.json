@@ -1,0 +1,19 @@
+{
+  "name": "Drive Copy Link Button",
+  "description": "Drive Copy Link Button",
+  "version": "0.0.0",
+  "manifest_version": 3,
+  "permissions": ["scripting"],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["https://drive.google.com/drive/u/*"],
+      "js": ["script.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "offline_enabled": true,
+  "icons": {
+    "128": "./icon.png"
+  }
+}
