@@ -63,7 +63,7 @@ const createLink = (id, type, img) => {
   };
 
 
-  linkDiv.innerHTML = `<button style="position: relative; z-index: 0; cursor: pointer;display: flex; background: transparent; align-items: center; justify-content: center; padding: 3px 15px 3px 11px; color: #1a73e8; border-color: #dadce0; border-radius: 0.25rem; font-family: 'Google Sans',Roboto,Arial,sans-serif; font-size: .875rem; letter-spacing: .0107142857em; font-weight: 500; text-transform: none; transition: border 280ms cubic-bezier(0.4,0,0.2,1),box-shadow 280ms cubic-bezier(0.4,0,0.2,1); box-shadow: none; border-width: 1px;">
+  linkDiv.innerHTML = `<button style="position: relative; z-index: 0; cursor: pointer;display: flex; background: transparent; align-items: center; justify-content: center; padding: 3px 15px 3px 11px; color: #1a73e8; border-color: #dadce0; border-radius: 0.25rem; font-family: 'Google Sans',Roboto,Arial,sans-serif; font-size: .875rem; letter-spacing: .0107142857em; font-weight: 500; text-transform: none; transition: border 280ms cubic-bezier(0.4,0,0.2,1),box-shadow 280ms cubic-bezier(0.4,0,0.2,1); box-shadow: none; border-width: 1px; width: max-content;">
                         <svg style="margin-right: 8px;" width="24" height="24" viewBox="0 0 24 24" focusable="false">
                           <path d="M17 7h-4v2h4c1.65 0 3 1.35 3 3s-1.35 3-3 3h-4v2h4c2.76 0 5-2.24 5-5s-2.24-5-5-5zm-6 8H7c-1.65 0-3-1.35-3-3s1.35-3 3-3h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-2zm-3-4h8v2H8z"></path>
                         </svg>
